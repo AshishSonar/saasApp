@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px 0px;
+}
+
+header{
+    padding: 50px;
+    background-color: #7030CC;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-items{
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.menu-item{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+.menu-items button{
+    background-color: #1BBCEF;
+    border: none;
+    color: #fff;
+    padding: 20px 20px;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+
+/* hero section */
+.hero{
+    display: flex;
+    padding: 0px 50px;
+    background-color: #7030CC;
+}
+
+.hero-content{
+    width: 50%;
+    padding-top: 50px;
+}
+
+.hero-content h1{
+    font-size: 60px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+.hero-content p{
+    color: #fff;
+    line-height: 30px;
+}
+
+.hero-image img{
+    height: 600px;
+}
+
+
+/* features */
+
+.features{
+    display: flex;
+    padding: 50px;
+}
+
+.f-img{
+    width: 500px;
+}
+
+.f-img img{
+    height: 600px;
+}
+
+.f-content{
+    padding-left: 200px;
+}
+
+.f-list{
+    padding-top: 40px;
+}
+
+.f-list h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.f-list p{
+    font-size: 16px;
+}
+
+/* best-features */
+
+.best-features{
+    padding: 50px;
+}
+
+.best-features h1{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.bf-sections{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.bf-sec{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(152, 152, 152);
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bf-sec-img{
+    background-color: #C6C7F9;
+    border-radius: 50%;
+    width: 120px;
+}
+
+.bf-sec img{
+    height: 80px;
+    padding: 20px;
+    
+}
+
+.bf-sec-sub{
+    margin-top: 20px;
+    padding: 20px 0px;
+}
+
+
+.bf-sec-sub h3{
+    font-size: 18px;
+    text-align: center;
+}
+
+.bf-sec-sub p{
+    font-size: 16px;
+    text-align: center;
+}
